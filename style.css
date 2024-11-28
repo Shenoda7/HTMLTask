@@ -3,12 +3,12 @@
   margin: 0;
 }
 .wrapper {
-  border-top: 10px solid #1098ad;
-
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 body {
+  border-top: 10px solid #1098ad;
+
   color: #444;
   font-family: sans-serif;
   position: relative;
@@ -182,4 +182,41 @@ button {
   /*left: 0;*/
   bottom: 50px;
   right: 50px;
+}
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+nav {
+  float: right;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
